@@ -1,35 +1,37 @@
-📌 Projeto: Automação de Contratos – Reiters Productions (fictício)
-Este projeto foi desenvolvido como uma solução automatizada para preenchimento, geração e organização de contratos de trabalho, com base em dados fornecidos por arquivo .csv. A interface gráfica foi construída com Streamlit, permitindo ao usuário executar todas as etapas de forma simples e intuitiva.
+# 📌 Projeto: Automação de Contratos – Reiters Productions (fictício)
 
-🚀 Funcionalidades:
-📄 Preenche contratos em formato Word com os dados do .csv
+Este projeto foi desenvolvido como uma solução automatizada para preenchimento, geração e organização de contratos de trabalho com base em dados fornecidos por um arquivo `.csv`.  
+A interface gráfica foi construída com **Streamlit**, permitindo ao usuário executar todas as etapas de forma simples e intuitiva.
 
-🧾 Gera um PDF separado para cada contrato com o nome: Contrato – Nome.pdf
+---
 
-🗃️ Compacta automaticamente todos os contratos gerados em um único arquivo .rar
+## 🚀 Funcionalidades
 
-🖥️ Interface gráfica com Streamlit para selecionar os arquivos de entrada e saída
+- 📝 Preenche contratos em formato Word com os dados do `.csv`
+- 📄 Gera um PDF separado para cada contrato com o nome: `Contrato – Nome.pdf`
+- 📦 Compacta automaticamente todos os contratos gerados em um único arquivo `.rar`
+- 🖥️ Interface gráfica com Streamlit para selecionar os arquivos de entrada e saída
 
-🛠 Tecnologias utilizadas:
-Python – Linguagem principal
+---
 
-Streamlit – Para a interface gráfica
+## 🛠 Tecnologias Utilizadas
 
-pandas – Leitura e manipulação de dados do .csv
+- **Python** – Linguagem principal
+- **Streamlit** – Interface gráfica
+- **pandas** – Leitura e manipulação de dados `.csv`
+- **python-docx** – Manipulação de documentos Word (.docx)
+- **fpdf**, **reportlab** ou **docx2pdf** – Geração e conversão de PDFs
+- **pyminizip** ou **patool** – Compressão de arquivos `.rar`
+- **os**, **shutil** – Manipulação de arquivos e diretórios
 
-python-docx – Manipulação de documentos Word (.docx)
+---
 
-fpdf / reportlab / docx2pdf – Geração e conversão de PDFs (dependendo da sua escolha)
+## ▶️ Como Usar
 
-pyminizip ou patool – Para compressão no formato .rar
+1. Selecione o **modelo de contrato** (.docx)
+2. Selecione o **arquivo de dados** (.csv)
+3. Escolha onde salvar o **arquivo .rar** final
+4. A automação fará o resto: gerar os PDFs personalizados e compactar tudo
 
-os / shutil – Manipulação de arquivos e diretórios
+-----------
 
-🗂️ Como usar:
-Selecione o modelo de contrato (.docx)
-
-Selecione o arquivo de dados (.csv)
-
-Escolha onde salvar o arquivo .rar final
-
-A automação fará o resto: gerar os PDFs personalizados e compactar tudo
